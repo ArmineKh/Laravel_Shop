@@ -1,0 +1,187 @@
+.notific_block{
+	position: relative;
+}
+.friend_block{
+	position: relative;
+}
+#request_result{
+	position: absolute;
+	left: -100px;
+	display: none;
+}
+.navbar{
+    background-color: #808080;
+    height: 100px;
+    margin: 5px 0;
+}
+.messDiv{
+    z-index: 150;
+}
+#i{
+    padding: 10px;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+}
+
+#friend_list{
+	position: absolute;
+	left: -100px;
+	display: none;
+	width: 300px;
+    z-index: 111;
+}
+
+.notific_icon{
+	width: 50px;
+}
+.friend_icon{
+	width: 50px;
+}
+.myform{
+	width: 200px;
+}
+.message{
+	    width: 100%;
+    height: 303px;
+    background: whitesmoke;
+    overflow-y: auto;
+    z-index: 120;
+}
+.addMess{
+	    width: 86%;
+    height: 50px;
+    resize: none;
+}
+.messDiv{
+	    width: 300px;
+    height: 400px;
+    position: absolute;
+    border: 2px solid grey;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.friend_data{
+	    border-bottom: 1px solid;
+    padding: 11px;
+    background: #67727a;
+    margin: 0
+}
+.send{
+	    vertical-align: top;
+    border-style: none;
+    width: 36px;
+    margin-top: 11px;
+}
+.my,.you{
+	border-radius: 12px;
+	padding: 10px;
+
+}
+.my{
+	background: #2ed277;
+	text-align: right;
+	float: right;
+}
+.parentDiv{
+	overflow: hidden;
+	margin: 15px 0;
+    background-color: #e6f1fd;
+}
+
+.you{
+	background: #e26588;
+	text-align: left;
+	float: left;
+}
+.post{
+	    vertical-align: top;
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+.statusDiv{
+	width: 300px;
+    height: 40px;
+    text-align: center;
+
+}
+.addStatus{
+	width: 84%;
+	height: 37px;
+    border: 2px solid grey;
+    right: 0;
+    bottom: 0;
+    resize: none;
+}
+
+.showStatus{
+	 border-radius: 12px;
+    border: 2px outset;
+    padding: 10px;
+    height: 900px;
+    overflow: auto;
+}
+.status_item{
+	border-radius: 12px;
+    border: 2px inset;
+    margin: 10px 0;
+    text-align: left;
+    padding: 10px;
+}
+.like{
+    width: 36px;
+    margin: 5px;
+}
+
+.dislike{
+    width: 36px;
+    margin: 5px;
+}
+
+.likeCount{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+
+.like_user{
+    display: none;
+}
+.comment_mess{
+	width: 84%;
+    height: 37px;
+    border: 2px solid grey;
+    right: 0;
+    bottom: 0;
+    resize: none;
+}
+
+.add_comm{
+	vertical-align: top;
+	border: 2px solid grey;
+	border-radius: 12px;
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+}
+.comment_div{
+	display: none;
+	width: 80%;
+    text-align: center;
+}
+#showComm{
+	border: 2px solid grey;
+	border-radius: 12px;
+    width: 150px;
+    height: 30px;
+}
+.user_item {
+z-index: 115;
+}

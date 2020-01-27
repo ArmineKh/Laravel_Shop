@@ -1,0 +1,24 @@
+@extends('layout')
+@section('content')
+<div class='row'>
+	@foreach($product as $p)
+
+	<div class="col-md-4">
+
+		<img class="rounded-circle" width="100" height="100" src="uploads/{{$p->photo}}">
+		<h3>{{$p->name}}</h3>
+		<p style="color:orange"><b> ${{$p->price}}</b></p>
+		<p>left <b>{{$p->count}}</b> in stock</p>
+		<p><i>seller - {{$p->user->name}} {{$p->user->surname}}</i></p>
+		<a href="./addToCard/{{$p->id}}">Add to card</a>
+		<br>
+		<a href="./addToWish/{{$p->id}}">Add to Wish List</a>
+
+		
+	</div>
+
+	@endforeach
+</div>
+
+
+@endsection

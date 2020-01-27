@@ -1,0 +1,52 @@
+body{
+	background-color: #dbdbf7; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, white, #dbdbf7);
+	height: 2000px;
+}
+ .icon{
+ 	width: 30px;
+ 	height: 30px;
+ 	margin: 5px;
+ 	float: right;
+ }
+ .new-post{
+ 	padding: 16px 0;
+ 	border-bottom: 1px solid #ccc;
+ }
+
+ .new-post header,
+ .posts header{
+ 	margin-bottom: 20px;
+ }
+
+ .posts article {
+ 	padding-left: 10px;
+ 	border-left: 3px solid #a21b24;
+ 	margin-bottom: 30px;
+ }
+ .info{
+	color: #aaa;
+	font-style: italic;
+ }
+
+ .profile{
+	float: right;
+	width: 300px;
+	background: #ececf9;
+ }
+
+ .author-img{
+ 	margin: 5px;
+ 	padding: 5px;
+ 	border-radius: 50%;
+ 	background-size: cover;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	position: relative;
+ }
+
+ #search_result{
+ 	position: absolute;
+ 	z-index: 111;
+ 	background-color: #e3f0fe;
+ }
